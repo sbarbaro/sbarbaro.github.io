@@ -207,7 +207,7 @@ var showData = {
       "segment" : "SEGMENT 4",
       "short" : "SEG4",
       "flash" : standard,
-      "music" : "00:00:30",
+      "music" : "00:00:25",
       "credits" : "00:00:40",
     },
     {
