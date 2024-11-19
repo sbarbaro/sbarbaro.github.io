@@ -1,0 +1,90 @@
+body {
+  padding: 0ch;
+  margin: 0ch;
+  background-color: #323232;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  color: white;
+  margin: 1vh 1vw;
+}
+
+.main-container > div {
+  margin: 1vh;
+}
+
+.segTitle {
+  order: 0;
+  flex-grow: 2;
+  flex-basis: 50vw;
+  font: bolder 6vw monospace;
+  text-align: center;
+  padding: 5vh;
+  line-height: 1.5em;
+  background: red;
+  margin: auto;
+}
+
+.clocks {
+  margin: auto;
+  order: 1;
+  flex-grow: 3;
+  flex-basis: auto;
+}
+
+.time {
+  font: bolder 4vw monospace;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 0.5vh;
+}
+
+.bigClock {
+  order: 2;
+  flex-grow: 3;
+  flex-basis: auto;
+  font: bolder 11vw monospace;
+  text-align: center;
+  background: black;
+}
+
+.messages {
+  order: 3;
+  flex-grow: 3;
+  font: bolder 7em helvetica;
+  background: black;
+  overflow-y: scroll;
+  display: block;
+  min-height: 31vh;
+  max-height: 40vh;
+  margin-bottom: 1vh;
+  min-width: 50vw;
+
+}
+
+.prompter {
+  padding: 0.25em;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+.messages::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+}
+
+@media all and (orientation:portrait)  {
+  #real, #show {
+    float: left;
+  }
+}
