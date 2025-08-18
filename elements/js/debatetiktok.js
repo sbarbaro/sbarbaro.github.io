@@ -27,29 +27,21 @@ var showData = {
     {
       "epoch": "20:00:00",
       "status": "live",
-      "segment": "SEGMENT 1",
+      "segment": "Debate",
       "short": "SEG1",
       "flash": standard,
-      "music": "00:00:15",
     },
     {
-      "epoch": "20:28:00",
-      "status": "PSA",
-      "segment": "BREAK",
-      "short": "PSA1",
-      "flash": psaFlash
-    },
-    {
-      "epoch": "20:30:00",
-      "status": "live",
-      "segment": "SEGMENT 2",
-      "short": "SEG2",
+      "epoch": "20:55:07",
+      "status": "standard",
+      "segment": "CLOSING",
+      "short": "CLS",
       "flash": standard,
-      "credits": "00:00:40",
-      "music": "00:00:15",
+      "credits": "00:00:45",
+      "music": "00:00:30",
     },
     {
-      "epoch": "20:58:00",
+      "epoch": "20:57:52",
       "status": "PSA",
       "segment": "BREAK",
       "short": "PSA",
@@ -69,3 +61,4 @@ var showData = {
     }
   ]
 }
+
