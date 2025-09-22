@@ -28,14 +28,14 @@ var showData = {
       "epoch": "20:00:00",
       "status": "live",
       "segment": "Debate",
-      "short": "SEG1",
+      "short": "LIVE",
       "flash": standard,
     },
     {
-      "epoch": "20:55:07",
+      "epoch": "20:53:00",
       "status": "standard",
       "segment": "CLOSING",
-      "short": "CLS",
+      "short": "CLOS",
       "flash": standard,
       "credits": "00:00:45",
       "music": "00:00:30",
@@ -61,4 +61,5 @@ var showData = {
     }
   ]
 }
+
 
