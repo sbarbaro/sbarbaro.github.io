@@ -38,7 +38,7 @@ var showData = {
       "short": "CLOS",
       "flash": standard,
       "credits": "00:00:45",
-      "music": "00:00:30",
+      "music": "00:00:25",
     },
     {
       "epoch": "20:57:52",
@@ -61,5 +61,6 @@ var showData = {
     }
   ]
 }
+
 
 
