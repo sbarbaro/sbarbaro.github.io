@@ -32,7 +32,7 @@ var showData = {
       "flash": standard,
     },
     {
-      "epoch": "20:53:00",
+      "epoch": "20:54:00",
       "status": "standard",
       "segment": "CLOSING",
       "short": "CLOS",
@@ -43,8 +43,8 @@ var showData = {
     {
       "epoch": "20:58:00",
       "status": "PSA",
-      "segment": "BREAK",
-      "short": "PSA",
+      "segment": "WRAP",
+      "short": "END",
       "flash": psaFlash
     },
     {
@@ -61,6 +61,7 @@ var showData = {
     }
   ]
 }
+
 
 
 
